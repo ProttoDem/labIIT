@@ -25,4 +25,4 @@ jobs:
       with:
         push: true
         file: ./Dockerfile
-        tags: prottodem/lab4_5:latest
+        tags: prottodem/lab4:latest
