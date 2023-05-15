@@ -7,7 +7,7 @@ on:
 jobs:
 
   build-container:
-    name: Puild and push new docker image
+    name: Build and push new docker image
     runs-on: ubuntu-latest
 
     steps:
@@ -25,4 +25,4 @@ jobs:
       with:
         push: true
         file: ./Dockerfile
-        tags: prottodem/lab4:latest
+        tags: prottodem/lab4_5:latest
