@@ -1,1 +1,2 @@
-FROM lab03_2_teamnyf
+FROM nginx:alpine
+COPY index.html /usr/share/nginx/html
